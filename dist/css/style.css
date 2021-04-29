@@ -91,6 +91,7 @@ img{
     grid-gap: 3rem;
     justify-content: center;
     align-items: center;
+    height: 90vh;
 }
 
 .section-a h1{
@@ -104,6 +105,8 @@ img{
 
 
 /* End of Main content Styles */
+
+
 
 /* Start of overlay Styles */
 
@@ -138,6 +141,126 @@ img{
 }
 
 /* End of overlay Styles */
+
+/* Start of Gallery Styles */
+
+.section-c .gallery{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+
+.section-c .gallery a:first-child{
+    grid-row: 1/3;
+    grid-column: 1/3;
+}
+
+.section-c .gallery a:nth-child(2){
+    grid-row: 1/2;
+    grid-column: 3/5;
+}
+
+.section-c .gallery a:nth-child(3){
+    grid-row: 2/3;
+    grid-column: 3/6;
+}
+
+.section-c .gallery a:nth-child(4){
+    grid-row: 1/2;
+    grid-column: 5/6;
+    object-fit: cover;
+}
+
+
+.section-c .gallery a, .section-c .gallery img{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* End of Gallery Styles */
+
+/* Start of Footer */
+
+.section-d{
+    background: var(--primary-color);
+    color: #fff;
+    padding: 4rem 0;
+}
+
+.section-d .container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 1rem;
+}
+
+.section-d h2{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.section-d h3{
+    margin-bottom: 0.7rem;
+}
+
+.section-d a{
+    line-height: 1.9;
+    color: #ccc;
+}
+
+.section-d a > i{
+    margin-right: 0.5rem;
+    color: #555;
+
+}
+
+.email-form{
+    width: 100%;
+    display: inline-block;
+    line-height: 0;
+    background-color: #555;
+    border-radius: 30px;
+    margin-top: 1rem;
+    position: relative;
+}
+
+.email-form .form-control{
+    display: inline-block;
+    border: 0;
+    outline: 0;
+    margin: 0;
+    font-size: 1rem;
+    background-color: transparent;
+    color: #fff;
+    font-family: inherit;
+    width: 100%;
+    height: 45px;
+    border-radius: 30px;
+    padding: 0 3rem 0 1.5rem;
+}
+
+.email-form .submit{
+    display: inline-block;
+    background-color: #eee;
+    font-size: 1rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    color: #555;
+    cursor: pointer;
+    border-radius: 0 20px 20px 0;
+}
+
+
+/* End of Footer */
+
+
 
 /* Utilities */
 
