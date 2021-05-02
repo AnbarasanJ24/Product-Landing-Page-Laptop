@@ -118,7 +118,7 @@ img {
 .section-b {
     position: relative;
     height: 600px;
-    background: url('/dist/images/Image3.png') no-repeat top;
+    background: url('../images/Image3.png') no-repeat top;
 }
 
 .section-b-inner {
