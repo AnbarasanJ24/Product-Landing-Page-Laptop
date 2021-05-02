@@ -100,6 +100,17 @@ img {
     margin: 1rem 0;
 }
 
+.section-a .container .background{
+    position: absolute;
+    width: 30%;
+    height: 45%;
+    object-fit: cover;
+    top: 100px;
+    right: 195px;
+    opacity: 0.1;
+    z-index: -1;
+}
+
 /* End of Main content Styles */
 
 /* Start of overlay Styles */
@@ -107,7 +118,7 @@ img {
 .section-b {
     position: relative;
     height: 600px;
-    background: url('/dist/images/Image3.jpg') no-repeat bottom center/cover;
+    background: url('/dist/images/Image3.png') no-repeat top;
 }
 
 .section-b-inner {
