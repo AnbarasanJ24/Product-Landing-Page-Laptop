@@ -118,7 +118,13 @@ img {
 .section-b {
     position: relative;
     height: 600px;
-    background: url('../images/Image3.png') no-repeat top;
+    /* background: url('../images/Image3.png') no-repeat top; */
+}
+
+.section-b .overlay-image{
+    position: absolute;
+    height: 100%;
+    object-fit: scale-down;
 }
 
 .section-b-inner {
